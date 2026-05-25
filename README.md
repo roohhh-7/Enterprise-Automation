@@ -56,11 +56,14 @@ Developed interactive dashboards to give executives a bird's-eye view of operati
 
 ## 📂 Project Files & Deliverables
 Feel free to explore the raw files used to build this platform:
-* `BRD_FRD_Documentation.md` - Business & Functional Requirements
-* `schema_and_triggers.sql` - Database schema and PL/pgSQL trigger logic
-* `mock_seed_data.sql` - 2,000 rows of enterprise ticket data
-* `n8n_workflows.json` - Exported automation workflows
-* `power_bi_views.sql` - Analytical views and DAX formulas
+* [Business Requirements Document (BRD)](./brd.md)
+* [Functional Requirements Document (FRD)](./frd.md)
+* [Agile User Stories](./user_stories.md)
+* [Process Flows](./process_flows.md)
+* [Database Schema & Triggers](./supabase_schema.sql)
+* [Mock Seed Data (2,000 rows)](./seed_mock_data.sql)
+* [n8n Automation Workflows](./n8n_workflows.md)
+* [Power BI Analytics Views & DAX](./powerbi_analytics.md)
 
 ---
 *Created by [Your Name] to demonstrate comprehensive Business Analysis, Systems Integration, and Data Engineering capabilities.*
