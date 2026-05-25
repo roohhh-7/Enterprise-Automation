@@ -5,7 +5,6 @@ Enterprise Workflow Intelligence & SLA Analytics Platform
 
 Below are the two core automation workflows required for the project. **n8n** makes it incredibly easy to share workflows—you can literally copy the JSON code blocks below and paste them directly into your n8n canvas (Ctrl+V / Cmd+V)!
 
----
 
 ## 1. SLA Breach Monitor & Escalation
 This workflow runs every 15 minutes. It queries the Supabase PostgreSQL database to find any tickets that have passed their `sla_deadline` but aren't resolved. It updates their status to `ESCALATED` and sends a Slack alert.
@@ -86,7 +85,6 @@ This workflow runs every 15 minutes. It queries the Supabase PostgreSQL database
 }
 ```
 
----
 
 ## 2. Instant Critical Ticket Alert (Supabase Webhook)
 This workflow listens for immediate alerts. In Supabase, you can go to **Database > Webhooks** and create a trigger that fires on `INSERT` to the `tickets` table when `priority_tier = 'Critical'`. You paste the Webhook URL from the first node below into Supabase.

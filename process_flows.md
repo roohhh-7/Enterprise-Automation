@@ -3,7 +3,6 @@
 ## Project Title
 Enterprise Workflow Intelligence & SLA Analytics Platform
 
----
 
 ## 1. As-Is Process Flow (Current State)
 This diagram illustrates the current manual, inefficient process.
@@ -24,7 +23,6 @@ flowchart TD
     D -.->|Employee Follows up| B
 ```
 
----
 
 ## 2. To-Be Process Flow (Future State)
 This diagram illustrates the automated, centralized workflow.
@@ -48,7 +46,6 @@ flowchart TD
     M --> N[Power BI Refreshes Data]
 ```
 
----
 
 ## 3. Ticket Lifecycle (State Machine)
 This diagram illustrates the standardized states a ticket can move through.
@@ -66,7 +63,6 @@ stateDiagram-v2
     CLOSED --> [*]
 ```
 
----
 
 ## 4. Automated Escalation Logic Flow
 This diagram breaks down the n8n logic for monitoring SLAs.

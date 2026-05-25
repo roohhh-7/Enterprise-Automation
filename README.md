@@ -10,7 +10,6 @@ Manual IT helpdesk triage often leads to missed Service Level Agreements (SLAs),
 
 This project solves that by engineering a **real-time, event-driven enterprise helpdesk backend**. It utilizes custom database triggers to instantly calculate dynamic SLA deadlines, integrates with the Slack API for automated critical alerting, and visualizes operational KPIs in Power BI.
 
----
 
 ## 🛠️ Technology Stack
 * **Database:** PostgreSQL (Supabase), PL/pgSQL, Row Level Security (RLS)
@@ -18,7 +17,6 @@ This project solves that by engineering a **real-time, event-driven enterprise h
 * **Data Analytics:** Power BI, DAX, SQL Views
 * **Business Analysis:** BRD/FRD Documentation, User Stories, Process Mapping
 
----
 
 ## 🚀 Key Features & Implementation
 
@@ -54,7 +52,6 @@ Developed interactive dashboards to give executives a bird's-eye view of operati
 
 *[Insert screenshot of your Power BI Dashboard here]*
 
----
 
 ## 📂 Project Files & Deliverables
 Feel free to explore the raw files used to build this platform:
@@ -67,5 +64,4 @@ Feel free to explore the raw files used to build this platform:
 * [n8n Automation Workflows](./n8n_workflows.md)
 * [Power BI Analytics Views & DAX](./powerbi_analytics.md)
 
----
 *Created by Rohit*

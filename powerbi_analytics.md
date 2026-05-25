@@ -5,7 +5,6 @@ Enterprise Workflow Intelligence & SLA Analytics Platform
 
 This document outlines everything you need to build the final executive dashboards in Power BI.
 
----
 
 ## 1. Database Views for Power BI
 Instead of pulling raw tables and joining them in Power BI, it is best practice to create SQL Views in Supabase to clean and aggregate the data.
@@ -52,7 +51,6 @@ WHERE status NOT IN ('RESOLVED', 'CLOSED')
 GROUP BY department_name, status;
 ```
 
----
 
 ## 2. Power BI Data Modeling (Star Schema)
 When you import the data into Power BI, ensure your relationships look like this:
@@ -61,7 +59,6 @@ When you import the data into Power BI, ensure your relationships look like this
 2. Create a new **Date Table** in Power BI (using DAX: `Dates = CALENDARAUTO()`) to serve as your Dimension Table.
 3. Link the `Dates[Date]` column to the `v_powerbi_tickets[created_at]` column (One-to-Many).
 
----
 
 ## 3. Executive DAX Measures
 Create a new "Measures Table" in Power BI and paste these exact DAX formulas to create your dashboard KPIs.
@@ -106,7 +103,6 @@ CALCULATE(
 )
 ```
 
----
 
 ## 4. Recommended Dashboard Pages
 With the data and DAX ready, build these 3 pages in Power BI:

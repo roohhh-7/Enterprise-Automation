@@ -3,7 +3,6 @@
 ## Project Title
 Enterprise Workflow Intelligence & SLA Analytics Platform
 
----
 
 ### Epic 1: Ticket Management & Lifecycle
 
@@ -21,7 +20,6 @@ Enterprise Workflow Intelligence & SLA Analytics Platform
   - When the agent starts working, they can change the status to `IN PROGRESS`.
   - Then the system logs this status change with a timestamp in the workflow history.
 
----
 
 ### Epic 2: Dynamic Priority & SLA Management
 
@@ -39,7 +37,6 @@ Enterprise Workflow Intelligence & SLA Analytics Platform
   - When the system time crosses the 4h mark and the status is not `RESOLVED`.
   - Then the ticket is flagged as `SLA_BREACHED`.
 
----
 
 ### Epic 3: Automated Workflow & Escalations (n8n)
 
@@ -57,7 +54,6 @@ Enterprise Workflow Intelligence & SLA Analytics Platform
   - When evaluated by the n8n scheduled workflow.
   - Then a warning notification is sent to the assigned agent and manager.
 
----
 
 ### Epic 4: Operational Intelligence Dashboards
 
