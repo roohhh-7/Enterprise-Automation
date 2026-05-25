@@ -40,7 +40,8 @@ Replaced manual triage with zero-latency automated pipelines.
 * Built **Webhook-Triggered Workflows** that listen for incoming HTTP POST requests the exact second a 'Critical' ticket is filed.
 * Seamlessly formatted and pushed dynamic JSON payloads to the Slack API.
 
-*[Insert screenshot of your n8n Workflow Canvas here]*
+<img width="1075" height="487" alt="image" src="https://github.com/user-attachments/assets/3e12e83c-c14b-42c3-a2bc-ca24e3721a2b" />
+
 
 *[Insert screenshot of the Slack Alert arriving in your channel here]*
 
@@ -66,4 +67,4 @@ Feel free to explore the raw files used to build this platform:
 * [Power BI Analytics Views & DAX](./powerbi_analytics.md)
 
 ---
-*Created by [Your Name] to demonstrate comprehensive Business Analysis, Systems Integration, and Data Engineering capabilities.*
+*Created by Rohit*
