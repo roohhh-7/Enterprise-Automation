@@ -2,8 +2,6 @@
 
 > **A full-stack operational intelligence platform demonstrating end-to-end business analysis, database engineering, and workflow automation.**
 
-![Hero Image or Architecture Diagram](/path/to/hero_image_placeholder.png)
-*(Replace the link above with a screenshot of your Power BI Dashboard or an Architecture Diagram)*
 
 ## 📖 Project Overview
 Manual IT helpdesk triage often leads to missed Service Level Agreements (SLAs), inefficient routing, and zero visibility into departmental bottlenecks. 
@@ -44,13 +42,12 @@ Replaced manual triage with zero-latency automated pipelines.
 <img width="974" height="455" alt="image" src="https://github.com/user-attachments/assets/d677bc12-ad20-4cbf-be31-985420905b1d" />
 
 
+*in progress*
 ### 4. Operational Intelligence (Power BI)
 *(Coming Soon - Phase 4)*
 Developed interactive dashboards to give executives a bird's-eye view of operational health.
 * Tracked SLA Adherence Rates and Average Resolution Times using custom SQL Views.
 * Utilized DAX formulas to create dynamic KPI cards for Departmental Ticket Volumes.
-
-*[Insert screenshot of your Power BI Dashboard here]*
 
 
 ## 📂 Project Files & Deliverables
