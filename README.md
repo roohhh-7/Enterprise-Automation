@@ -43,7 +43,8 @@ Replaced manual triage with zero-latency automated pipelines.
 <img width="1075" height="487" alt="image" src="https://github.com/user-attachments/assets/3e12e83c-c14b-42c3-a2bc-ca24e3721a2b" />
 
 
-*[Insert screenshot of the Slack Alert arriving in your channel here]*
+<img width="974" height="455" alt="image" src="https://github.com/user-attachments/assets/d677bc12-ad20-4cbf-be31-985420905b1d" />
+
 
 ### 4. Operational Intelligence (Power BI)
 *(Coming Soon - Phase 4)*
